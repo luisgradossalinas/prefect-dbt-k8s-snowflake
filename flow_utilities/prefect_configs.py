@@ -1,4 +1,4 @@
-from prefect.run_configs import LocalRun, KubernetesRun, RunConfig
+from prefect.run_configs import KubernetesRun, RunConfig
 from prefect.storage.github import GitHub
 from prefect.client.secrets import Secret
 
