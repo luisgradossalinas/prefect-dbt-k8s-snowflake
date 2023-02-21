@@ -5,7 +5,7 @@ Demonstrates how to:
 - transform data using dbt
 - dockerize the project
 - deploy the project to a Kubernetes cluster on AWS
-- orchestrate all steps using Prefect Cloud
+- orchestrate all steps using Prefect Cloud.
 
 	ACCOUNT_ID=`aws sts get-caller-identity --query Account --output text`
 
